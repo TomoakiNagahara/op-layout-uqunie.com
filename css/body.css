@@ -11,8 +11,6 @@
 body.body {
 	margin:  0;
 	padding: 0;
-	background-color: #B0CBDC;
 	background-image: url(/img/body-background.png);
 	background-repeat: repeat-x;
-	color: white;
 }

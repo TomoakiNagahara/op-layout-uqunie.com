@@ -1,0 +1,20 @@
+
+/** op-layout-uqunie.com:/css/root.css
+ *
+ * @created   2020-10-11
+ * @version   1.0
+ * @package   op-layout-uqunie.com
+ * @author    Tomoaki Nagahara <tomoaki.nagahara@gmail.com>
+ * @copyright Tomoaki Nagahara All right reserved.
+ */
+
+:root {
+	--root-color-text:       #fff;
+	--root-color-background: #B0CBDC;
+	/*
+	--root-color-disabled:   #bbb;
+	--root-color-border:     #333;
+	--root-font-size:         9pt;
+	--root-hue:                 0;
+	*/
+}
