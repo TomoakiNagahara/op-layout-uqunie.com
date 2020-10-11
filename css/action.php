@@ -1,6 +1,5 @@
 <?php
-/**
- * op-layout-uqunie.com:/css/action.php
+/** op-layout-uqunie.com:/css/action.php
  *
  * @creation  2017-08-11
  * @version   1.0
