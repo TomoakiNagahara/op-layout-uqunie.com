@@ -15,20 +15,12 @@
  */
 namespace OP;
 
-/** use
- *
- * @created   2020-07-11
- */
-use OP\UNIT\App;
-
 ?>
-<!doctype html>
-<html lang="<?= Env::Language() ?>">
+<html>
 	<head>
 		<?php
-		//	head
-		App::Template('layout/head.phtml');
-		App::Template('google/adsense.phtml');
+		OP::Template('layout/head.phtml');
+		OP::Template('google/adsense.phtml');
 		?>
 	</head>
 	<body id="body" class="body">
@@ -38,8 +30,7 @@ use OP\UNIT\App;
 			</header>
 			<article>
 				<?php
-				//	Main content
-				App::Content();
+				OP::Content();
 				?>
 			</article>
 			<footer>
@@ -47,6 +38,8 @@ use OP\UNIT\App;
 				<p><a href="https://onepiece-framework.com">Powerd by onepiece-framework</a></p>
 			</footer>
 		</div>
-		<?= App::Template('google/analytics.phtml') ?>
+		<?php
+		OP::Template('google/analytics.phtml');
+		?>
 	</body>
 </html>
