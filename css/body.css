@@ -11,6 +11,6 @@
 body.body {
 	margin:  0;
 	padding: 0;
-	background-image: url(/img/body-background.png);
+	background-image: url(/webpack/img/body-background.png);
 	background-repeat: repeat-x;
 }
